@@ -1,0 +1,214 @@
+@font-face {font-family: "AvertaStd-Semibold"; src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot"); src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff") format("woff"), url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold") format("svg"); }
+@font-face {font-family: "AvertaStd-Regular"; src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot"); src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff") format("woff"), url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular") format("svg"); }
+ 
+
+.one{
+  position:absolute;
+  top:15%;
+  left:21%;
+  width:1070px;
+  }
+.flex1{
+  display: flex;
+  
+}
+.UserLogReport>h3{
+  font-family: AvertaStd-Semibold;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  
+  color: #000000;
+  margin-bottom: 14px;
+  
+}
+.usercode>h3{
+  width: 255px;
+  font-family: "AvertaStd-Regular";
+font-size: 20px;
+font-weight: 500;
+padding-top: 20px;
+}
+.usercode>input{
+  margin-top:10px ;
+  width: 310px;
+  height: 44px;
+
+}
+.LogDateFrom>h3{
+  width: 255px;
+  margin-left: 65px;
+  font-family: "AvertaStd-Regular";
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  padding-top: 20px;
+
+}
+.LogDateFrom>input{
+  margin-left:65px;
+  margin-top:10px ;
+  width: 310px;
+  height: 44px;
+  padding: 0 15px 0 15px;
+  text-transform:uppercase;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    font-family: AvertaStd-Regular;
+
+}
+.LogDateTo>h3{
+  width: 255px;
+  margin-left: 65px;
+  font-family: "AvertaStd-Regular";
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  padding-top: 20px;
+
+}
+.LogDateTo>input{
+  margin-left:65px;
+  margin-top:10px ;
+  width: 310px;
+  height: 44px;
+  text-transform:uppercase;
+  padding: 0 15px 0 15px;
+  text-transform:uppercase;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    font-family: AvertaStd-Regular;
+}
+
+.flex2{
+  display: flex;
+}
+.formName>h3{
+  width: 255px;
+  padding-top: 20px;
+  font-family: "AvertaStd-Regular";
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;}
+.formName>input{
+  margin-top:10px ;
+  width: 310px;
+  height: 44px;
+
+}
+
+
+.LogType>h3{
+  
+  width: 255px;
+    margin-left: 65px;
+    padding-top: 20px;
+    font-family: "AvertaStd-Regular";
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    font-weight: 500;}
+.LogType>select{
+ 
+  width: 310px;
+  height: 44px;
+  margin-left: 65px;
+  margin-top:10px ;
+  text-transform:uppercase;
+  padding:0 15px 0 15px;
+  text-transform:uppercase;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    font-family: AvertaStd-Regular;
+
+}
+
+.ResetSearchB{
+  display: flex;
+  padding-top: 29px;
+  margin-top: 22px;
+  }
+
+
+.Reset>input{
+ 
+  width: 100px;
+  height: 45px;
+  font-size: 20px;
+  color:#db4537e9;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #db4537e9;
+  cursor: pointer;  
+  margin-right: 25px;
+  
+}
+.SearchB>button{
+
+ 
+  width: 100px;
+  height: 45px;
+  font-size: 20px;
+  color: #0759E4;
+  background-color: white;
+  border:  2px solid #0759E4;
+  cursor: pointer;  
+
+
+  
+}
+
+
+
+
+.two{
+  position:absolute;
+  top:50%;
+  left:21%;
+  width:1060px;
+ 
+  
+}
+
+
+.userlogreporttableb{
+  font-family: arial, sans-serif;
+  
+
+  border-collapse: collapse;
+  margin-top:1px;
+  outline:none;
+  outline:none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px 6px 0px 0px;   
+  margin-top: 20px;
+  
+ 
+}
+.userlogreporttableb th {
+  text-align: left;
+  padding: 8px;
+  font-family: AvertaStd-Semibold;
+  font-size: 16px;
+  line-height: 26px;
+  text-align:center;
+  letter-spacing: 0.02em;
+  background: #4285F4;
+  color:#fff;
+  font-weight:1;
+}
+.userlogreporttableb td{ 
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px 6px 0px 0px;   
+  border: 1px solid rgba(0, 0, 0, 0.646);
+  text-align:center;
+  font-family: Avertastd-Semibold;
+  background:#fff;
+  color:#000;
+  font-weight:1;
+}

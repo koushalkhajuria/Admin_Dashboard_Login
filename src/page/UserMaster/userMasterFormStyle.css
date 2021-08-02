@@ -1,0 +1,164 @@
+
+@font-face {
+  font-family: "AvertaStd-Semibold";
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot");
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold")
+      format("svg");
+}
+
+@font-face {
+  font-family: "AvertaStd-Regular";
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot");
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular")
+      format("svg");
+}
+
+.fullPage {position:absolute;
+  top:12.6%;
+  left:16.9%;
+  width:1125px;
+}
+
+.siddhi::after {
+  content: "*";
+  color: red;
+}
+
+
+
+.fullForm {
+  margin-top: 1em;
+  margin-left: 4em;
+  width:100%;
+}
+
+.KK{margin-bottom:7px;}
+
+
+.usermasterlable {
+  font-family: AvertaStd-Regular;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 15px;
+ 
+  line-height: 26px;
+  letter-spacing: 0.02em;
+ 
+}
+
+.title {
+  font-family: AvertaStd-Semibold;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  width: 108px;
+  height: 30px;
+  margin-bottom: 0.5em;
+}
+
+.usermasterinput,.usermasterselect {
+  margin-top: 10px;
+  width: 305.5px;
+  height: 46px;
+
+  padding: 0 15px 0 15px;
+
+
+  font-family: AvertaStd-Regular;
+  font-size: 16px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  margin-right: 4.5em;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+  margin-bottom: 0em;
+}
+
+.btnsS1 input {
+  font-family: AvertaStd-Semibold;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  filter: drop-shadow(0px 1px 0px rgba(0, 0, 0, 0.25));
+}
+.btnsS1 button {
+  font-family: AvertaStd-Semibold;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  filter: drop-shadow(0px 1px 0px rgba(0, 0, 0, 0.25));
+}
+.btnsS1{
+  
+  margin-top: 20px;
+  margin-left: 76%;
+}
+.resetS1{
+  width:fit-content;
+  height:fit-content;
+  padding: 8px 20px 8px 20px;
+  margin-right: 1em;
+  color: #db4537ec;
+  background: white;
+  border: 2px solid #db4537ec;
+   box-sizing: border-box;
+  border-radius: 2px;
+  font-family: AvertaStd-Semibold;
+  font-size: 18px !important;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+}
+.submitS1{
+  background: white;
+
+  font-family: AvertaStd-Semibold;
+font-size: 18px;
+line-height: 23px;
+letter-spacing: 0.02em;
+  width:fit-content;
+  height:fit-content;
+  padding: 8px 15px 8px 15px;
+  background-color: 'transparent';
+  color: '#0F9D58';
+  border: '2px solid #0F9D58' ;
+  font-family: AvertaStd-Semibold;
+  font-size: 18px !important;
+  letter-spacing: 0.02em;
+  color: #0F9D58;
+  border: 2px solid #0F9D58;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.userpic{
+  padding:6px 5px 5px 5px;
+  font-size: 19px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+ 
+}

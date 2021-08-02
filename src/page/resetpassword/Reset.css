@@ -1,0 +1,258 @@
+@font-face {
+  font-family: "AvertaStd-Semibold";
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot");
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold")
+      format("svg");}
+  @font-face {
+    font-family: "AvertaStd-Regular";
+    src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot");
+    src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix")
+        format("embedded-opentype"),
+      url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2")
+        format("woff2"),
+      url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff")
+        format("woff"),
+      url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf")
+        format("truetype"),
+      url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular")
+        format("svg");
+  }
+
+.changebox41 {
+  position:absolute;
+  top:15%;
+  left:21%;
+  width:1070px;
+}
+.box3241 {
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 20px 30px 20px 5px;
+}
+.Heading3141{
+  font-family: AvertaStd-Semibold;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.02em;
+color: #000000;
+margin-bottom: 30px;
+
+}
+
+.box3141 {
+  display: flex;
+}
+
+
+.star3141{
+  color:red;
+}
+
+.changeboxname41 {
+  font-family: AvertaStd-Regular;
+  font-size: 17px;
+  
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.indiBox41 {
+  margin-left: 25px;
+}
+.indiBox41 input {
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 286px;
+  height: 46px;
+  margin-top: 10px;
+}
+
+
+.indiBox411 {
+  margin-left: 70px;
+}
+
+.indiBox411 input {
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 286px;
+  margin-top: 10px;
+  height: 46px;
+}
+.indiBox412 {
+  margin-left: 70px;
+}
+
+.indiBox412 input {
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 286px;
+  margin-top: 10px;
+  height: 46px;
+}
+/* changepassword message */
+.changepasswordmessage41 {
+  display: flex;
+  margin: 15px 0px 0px 8px;
+}
+.changemessagebox41 {
+  padding-left: 18.5px;
+}
+.messagename41 {
+  padding-left: 9px;
+  font-family: AvertaStd-Regular;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+
+  color: rgba(0, 0, 0, 0.912);
+}
+.circleicon41{
+  z-index: -1; 
+}
+.correct41 {
+  z-index: 1;
+  position: absolute;
+  opacity: 0;
+  color: white;
+}
+
+/* reset and change button */
+.changebutton41 {
+  font-family: AvertaStd-Semibold;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.25));
+  border-radius: 2px;
+  margin: 40px 0px 0px 55px;
+  padding: 10px 20px 10px 20px;
+}
+.changebuttonbox41 {
+  position: absolute;
+  left:834px;
+}
+.changepasswordbutton41 {
+  color: #0f9d58;
+  border: 2px solid #0f9d58;
+  box-sizing: border-box;
+  border-radius: 1px;
+}
+
+/* 
+responsive */
+
+@media(max-width:768px){
+  .changepasswordmessage41 {
+    display: block;
+    margin: 35px 0px 0px 30px;
+  }
+
+  .box3141 {
+    display: block;
+  }
+  .changebutton41 {
+    
+    border-radius: 2px;
+    margin: 10px;
+    padding:10px;
+  }
+  .changebuttonbox41 {
+    position: absolute;
+    left: 2px;
+    top: 450px;
+  }
+  .changebox41 {
+    position: absolute;
+    left: 10px;
+    top: 2px;
+  }
+}
+@media(min-width:769px) and (max-width:1200px){ 
+   .changepasswordmessage41 {
+  display: block;
+  margin: 35px 0px 0px 30px;
+}
+
+.box3141 {
+  display: block;
+}
+.changebutton41 {
+    
+  border-radius: 2px;
+  margin: 10px;
+  padding:10px;
+}
+.changebuttonbox41 {
+  position: absolute;
+  left: 2px;
+  top: 450px;
+}
+.changebox41 {
+  position: absolute;
+
+  left: 10px;
+  top: 2px;
+}
+}
+
+/* .changeboxname {
+  position: relative;
+  top: -23px;
+  left: 100px;
+  font-family: AvertaStd-Regular;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+.name31 {
+  position: relative;
+  left: 85px;
+}
+.name32 {
+  position: relative;
+  left: 90px;
+}
+.name33 {
+  position: relative;
+  left: 115px;
+}
+.box31 {
+  width: 100%;
+  height: 200px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.changebox input {
+  margin-top: 50px;
+}
+
+.Heading31 {
+  font-family: AvertaStd-Semibold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+} */

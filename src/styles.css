@@ -1,0 +1,393 @@
+@font-face {
+  font-family: "AvertaStd-Semibold";
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot");
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold")
+      format("svg");
+}
+
+/* 1920*1080 */
+/* rem ya em */
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.topheadp{
+  position: absolute;
+margin-left: 72.1px;
+width: 95%;
+height:10%;
+background: #4A82E2;
+
+}
+.LeftNavBarBox {
+  background: #0759e4;
+  width: fit-content;
+  position: fixed;
+  /* overflow-Y: auto; */
+  top: 0;
+  height: 100vh;
+  text-align: center;
+}
+
+.ArrayMiddileTopIcons {
+  padding: 20px 10px 20px 10px;
+}
+
+.TopRow {
+  display: flex;
+  align-items: center;
+  margin: -25px 0 15% 6px;
+}
+.TopIcon {
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  margin: 25px 0 30px 0;
+  cursor: pointer;
+}
+
+.TopTitle {
+  color: #fff;
+  font-size: 20px;
+  font-family: AvertaStd-Semibold;
+  line-height: 21px;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+}
+
+.NaveTitle {
+  color: #fff;
+  font-size: 20px;
+  font-family: AvertaStd-Semibold;
+  line-height: 21px;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+}
+
+.MiddleIcons {
+  color: #fff;
+  height: 42px;
+  width: 32px;
+  cursor: pointer;
+}
+
+.SearchBox {
+  position: absolute;
+  width: 210px;
+  left: 10px;
+  font-size: 18px;
+  height: 58px;
+  font-family: AvertaStd-Semibold;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255);
+
+  background-color: #4a82e2;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 60px;
+}
+.SearchBox::placeholder {
+  position: relative;
+  left:-5px;
+  font-family: AvertaStd-Semibold;
+  font-size: 20px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.75);
+  padding-left: 16px;
+}
+
+.SearchIcon {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px 3px 10px;
+}
+.DashboardIcon {
+  align-items: center;
+  display: flex;
+  padding: 5px 10px 3px 10px;
+}
+.DashboardIcon:hover {
+  background: #4a82e2;
+  border-radius: 10px;
+}
+
+.UserIcon {
+  display: flex;
+  align-items: center;
+
+  padding: 5px 10px 3px 10px;
+}
+.UserIcon:hover {
+  background: #4a82e2;
+  border-radius: 10px;
+}
+
+.MasterIcon {
+  
+  align-items: center;
+  display: flex;
+  padding: 5px 10px 3px 10px;
+}
+.MasterIcon:hover {
+  background: #4a82e2;
+  border-radius: 10px;
+}
+                                /* copy */
+                                .SearchIcon1 {
+                                  display: flex;
+                                  align-items: center;
+                                  padding: 5px 10px 3px 10px;
+                                }
+                                .SearchIcon1:hover {
+                                  background: #4a82e2;
+                                  border-radius: 10px;
+                                }
+                                .DashboardIcon1 {
+                                  align-items: center;
+                                  display: flex;
+                                  padding: 5px 10px 3px 10px;
+                                }
+                                .DashboardIcon1:hover {
+                                  background: #4a82e2;
+                                  border-radius: 10px;
+                                }
+                                
+                                .UserIcon1 {
+                                  display: flex;
+                                  align-items: center;
+                                
+                                  padding: 5px 10px 3px 10px;
+                                }
+                                 .UserIcon1:hover {
+                                  background: #4a82e2;
+                                  border-radius: 10px;
+                                }
+                                 
+                                .MasterIcon1 {
+                                  width: 211px;
+                                  align-items: center;
+                                  display: flex;
+                                  padding: 5px 10px 3px 10px;
+                                }
+                                 .MasterIcon1:hover {
+                                  background: #4a82e2;
+                                  border-radius: 10px;
+                                } 
+
+
+
+.SearchIcon1:hover::after {
+  position: absolute;
+  left: 25px;
+  margin-left: 50px;
+  background: #ffffff;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 100px;
+  font-family: AvertaStd-Semibold;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.51);
+  content: "Search";
+}
+
+.DashboardIcon1:hover::after {
+  position: absolute;
+  left: 25px;
+  margin-left: 50px;
+  background: #ffffff;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 100px;
+  font-family: AvertaStd-Semibold;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.51);
+  content: "Dashboard";
+}
+.UserIcon1:hover::after {
+  position: absolute;
+  margin-left: 50px;
+  left: 25px;
+  background: #ffffff;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 100px;
+  font-family: AvertaStd-Semibold;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.51);
+  content: "User";
+}
+.MasterIcon1:hover::after {
+  position: absolute;
+  left: 25px;
+  margin-left: 50px;
+  background: #ffffff;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 100px;
+  font-family: AvertaStd-Semibold;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.51);
+  content: "Master";
+}
+
+.ArrayDownIcons {
+  margin-top: calc(100vh - 520px);
+  border-top: 1px solid #ffffff;
+}
+
+.DownIcons {
+  color: #fff;
+
+  height: 45px;
+  width: 35px;
+  cursor: pointer;
+}
+
+.LogoutIcon {
+  padding: 5px 10px 3px 10px;
+  margin: 10px auto 0 auto;
+}
+.LogoutIcon:hover {
+  background: #4a82e2;
+  border-radius: 10px;
+}
+         /* copy */
+
+         .LogoutIcon1 {
+          padding: 5px 10px 3px 10px;
+          margin: 10px auto 0 auto;
+        }
+        .LogoutIcon1:hover {
+          background: #4a82e2;
+          border-radius: 10px;
+        }
+
+.LogoutIcon1:hover::after {
+  position: absolute;
+  margin-left: 40px;
+  bottom:93px;
+  background: #ffffff;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 100px;
+  font-family: AvertaStd-Semibold;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.51);
+  content: "Log Out";
+} 
+
+.dropDowns {
+  background: #4a82e2;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px;
+  height: fit-content;
+  margin: 1vh auto;
+}
+
+.userinnericons {
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  display: flex;
+  
+}
+
+.dropDownRow {
+  display: flex;
+  align-items: center;
+  
+
+}
+
+
+.dropTitle {
+  font-family: AvertaStd-Semibold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.dropTitle:hover {
+  color: #fff;
+}
+
+
+.userinnericons:hover {
+  color: #fff;
+}
+
+.DownRow {
+  display: flex;
+  align-items: center;
+}
+
+.DownTitle {
+  color: #fff;
+  font-size: 20px;
+
+  font-family: AvertaStd-Semibold;
+  line-height: 21px;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+}
+
+/* .NaveTitle,.DownTitle,.dropTitle{display:none;} */
+
+/* .Bicon{
+    transition: all 1s ease-in-out;} */
+ .active_class{
+      color: #FFFFFF;
+    }
+
+.active_class::before{
+  border: 1px solid red;
+}
+
+.active_class1{
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+border-radius: 4px;
+
+
+
+}
