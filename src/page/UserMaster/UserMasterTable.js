@@ -11,8 +11,10 @@ import axios from "axios"
 
 const Tables = () => {
   const obj = JSON.parse(localStorage.getItem("user"));
-  const obj1=obj.username;
-  const [userState, setuserState] = useState({username: '', password: '', groupname: '', language: '', DateOfJoining: '', localaddress: '', permanentaddress: '', branch: '', createdby: obj1 , email: '',phone: '' })
+  // const obj1=obj.username;
+  const [userState, setuserState] = useState({username: '', password: '', groupname: '', language: '', DateOfJoining: '', localaddress: '', permanentaddress: '', branch: '', 
+  // createdby: obj1 ,
+   email: '',phone: '' })
   const [finalData, setfinalData] = useState([])
   const [finalData1, setfinalData1] = useState([])
   const [filterSelectContent, setSelectContent] = useState("title")
@@ -22,16 +24,16 @@ const Tables = () => {
   const[pic,setpic]=useState()
   // const profilepic={};
 
-  useEffect(() => {
-    fetch('http://localhost:8080/users')
-    .then(response => (response.json())).then((res) => { setfinalData(res) })
-    .catch(error => (console.log(error)))
-  }, [])
+  // useEffect(() => {
+  //   fetch('http://localhost:8080/users')
+  //   .then(response => (response.json())).then((res) => { setfinalData(res) })
+  //   .catch(error => (console.log(error)))
+  // }, [])
 
-  useEffect(() => {
-    fetch('http://localhost:8080/usergroup/names')
-    .then(response => (response.json())).then((res) => { setfinalData1(res) })
-  }, [])
+  // useEffect(() => {
+  //   fetch('http://localhost:8080/usergroup/names')
+  //   .then(response => (response.json())).then((res) => { setfinalData1(res) })
+  // }, [])
 
   function userphotos(event){ 
    console.log(event.target.files[0])
@@ -54,7 +56,7 @@ const Tables = () => {
 
 
   // given blow is post request
-  const handler = (e) => {
+  const submitHandler = (e) => {
     e.preventDefault()
     // setuserState({ userCode: '', userName: '', userGroup: '', dateOfJoining: '', localAddress: '', userLanguage: '', mobileNo: '', password: '', permanentAddress: '', email: '', userPhoto: '', branch: '' })
     if (userState.branch === "" || userState.branch === "Choose" || userState.groupname === "" || userState.groupname === "Choose" || userState.language === "" || userState.language === "Choose")
@@ -206,7 +208,7 @@ axios({
 
 
     <div className='fullPage'>
-      <form className='fullForm' onSubmit={ changebutton=="Save"?  handler :  updatehandler} autoComplete="on">
+      <form className='fullForm' onSubmit={ changebutton=="Save"?  submitHandler :  updatehandler} autoComplete="on">
         <div className='title'>
           Add User
         </div>
@@ -237,9 +239,9 @@ axios({
             <label className="usermasterlable" htmlFor="groupname" required><span className="siddhi">User Group</span></label>
             <select className="usermasterselect" onChange={changeHandler} value={userState.groupname} name="groupname" required>
               <option>--Choose--</option>
-              <option>{finalData1[0]}</option>
-              <option>{finalData1[1]}</option>
-              <option>{finalData1[2]}</option>
+              <option>{finalData1[0]}kom</option>
+              <option>{finalData1[1]}momo</option>
+              <option>{finalData1[2]}momo</option>
             </select>
           </div>
           <div className="KK" style={{ display: 'grid' }}>

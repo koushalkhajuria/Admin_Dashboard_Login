@@ -8,11 +8,11 @@ function Userlogreport() {
     fetch("", { method: "DELETE" }).then(() => alert("Deleted SuccessFully"));
   };
 
-  useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/todos")
-      .then((response) => response.json())
-      .then((data) => setData(data));
-  }, []);
+  // useEffect(() => {
+  //   fetch("https://jsonplaceholder.typicode.com/todos")
+  //     .then((response) => response.json())
+  //     .then((data) => setData(data));
+  // }, []);
 
   return (
     <>

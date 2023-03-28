@@ -89,12 +89,12 @@ const submitHandler=(e)=>{
 }
 
 
-useEffect(()=>{
-  fetch("http://localhost:8080/usergroup")
-  .then(response=>response.json())
-  .then(data=>setData(data))}
-  ,[]
-)
+// useEffect(()=>{
+//   fetch("http://localhost:8080/usergroup")
+//   .then(response=>response.json())
+//   .then(data=>setData(data))}
+//   ,[]
+// )
 
 
 const resetHandler=()=>{

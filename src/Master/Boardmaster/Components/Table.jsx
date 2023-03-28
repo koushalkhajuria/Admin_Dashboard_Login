@@ -90,13 +90,13 @@ function Table() {
 
   //  Get request Table contents 
 
-  useEffect(() => {
-    fetch("http://localhost:8080/BoardMaster")
-      .then(response => response.json())
-      .then(data => setData(data))
-  }
-    , []
-  )
+  // useEffect(() => {
+  //   fetch("http://localhost:8080/BoardMaster")
+  //     .then(response => response.json())
+  //     .then(data => setData(data))
+  // }
+  //   , []
+  // )
 
 
   const resetHandler = () => {
